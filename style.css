@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffffff;
+}
+
+.virsraksts {
+  background-color: #ffffff;
+  font-family: "Josefin Sans", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 25px;
+  padding: 30px 5%;
+  color: #0f7cf1;
+}
+
+#logo {
+  width: 7%;
+}
+
+.nav {
+  list-style: none;
+}
+
+.nav li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav li a {
+  text-decoration: none;
+  color: #0f7cf1;
+}
+
+.nav li a:hover {
+  color: #0b55a5;
+}
+
+#virsraksts_select {
+  color: #094381;
+  text-decoration: none;
+  cursor: default;
+}
+
+#index_main {
+  font-size: 50px;
+  cursor: default;
+  text-decoration: none;
+  color: #0f7cf1;
+}
+
+#index_main:hover {
+  cursor: pointer;
+}
+
+.main {
+  display: flex;
+  height: 1000px;
+  background-color: rgba(211, 210, 210, 0.219);
+}
